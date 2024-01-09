@@ -45,6 +45,7 @@ class GATTServerService : Service() {
         val CHARACTERISTIC_UUID: UUID = UUID.fromString("00001111-0000-1000-8000-00805f9b34fb")
 
         const val ACTION_START_ADVERTISING = "start_ad"
+
         const val ACTION_STOP_ADVERTISING = "stop_ad"
 
         // Important: this is just for simplicity, there are better ways to communicate between
